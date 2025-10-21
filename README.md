@@ -42,7 +42,7 @@ The dataset employed in this study consists of Brain MRI images used for the cla
 
 ### **3. Data Preprocessing**
 
-Data PreprocessinTo ensure uniformity and improve model performance, several preprocessing steps were applied to the Brain MRI dataset prior to training, Canny edge detection algorithm (cv2.Canny(img, 100, 200)) was applied to emphasize the structural edges and boundaries within each MRI scan.
+To ensure uniformity and improve model performance, several preprocessing steps were applied to the Brain MRI dataset prior to training, Canny edge detection algorithm (cv2.Canny(img, 100, 200)) was applied to emphasize the structural edges and boundaries within each MRI scan.
 This enhancement improved the model’s ability to identify tumor regions, leading to higher recall and overall accuracy, particularly in cases where a brain tumor
 was present
 
